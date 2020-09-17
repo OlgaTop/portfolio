@@ -685,9 +685,10 @@ h2, h3, h4, h5, h6 {
         flex: 1 1 100%;
         margin: 0px 0px 20px 0px; } }
   .portfolio__item img {
-    max-width: 100%; 
+	  max-width: 100%; }
+    img {
     transition: transform .25s ease; }
-    .portfolio__item img:hover {
+    img:hover {
         transform: scale(1.1);
     }}
   .portfolio__footer {
